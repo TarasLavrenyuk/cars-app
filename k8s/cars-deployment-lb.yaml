@@ -33,7 +33,6 @@ spec:
       containers:
         - name: cars-be
           image: cars-be:1.0.0
-          imagePullPolicy: Never
           ports:
             - containerPort: 8080
           env:
