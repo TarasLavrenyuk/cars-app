@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: cars-be
-          image: cars-be:1.0.0
+          image: taraslavreniuk/cars-be:1.0.0
           ports:
             - containerPort: 8080
           env:
